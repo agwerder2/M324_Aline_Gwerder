@@ -5,12 +5,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "check-updates": "ncu --cooldown 3"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^6.0.0"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^23.1.0"
   }
 }
