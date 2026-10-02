@@ -6,7 +6,7 @@ describe('sum', () => {
     assert.equal(sum(1, 2), 3)
   })
 
-it('should add decimal numbers', () => {
-  assert.ok(Math.abs(sum(0.1, 0.2) - 0.3) < 0.000001)
-})
+  it('should add decimal numbers', () => {
+    assert.ok(Math.abs(sum(0.1, 0.2) - 0.3) < 0.000001)
+  })
 })

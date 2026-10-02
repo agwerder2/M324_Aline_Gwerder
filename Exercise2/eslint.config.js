@@ -15,4 +15,10 @@ export default defineConfig([
       'no-var': 'error',
     },
   },
+  {
+    files: ['**/*.test.js'],
+    languageOptions: {
+      globals: globals.mocha,
+    },
+  },
 ])
