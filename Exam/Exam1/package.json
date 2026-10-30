@@ -4,7 +4,7 @@
   "description": "Exam M324",
   "main": "index.js",
   "scripts": {
-  "start": "npm run check && node convert.js && node index.js",
+  "start": "node index.js",
   "lint": "eslint .",
   "format": "prettier --write .",
   "format:check": "prettier --check .",
