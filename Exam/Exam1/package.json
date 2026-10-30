@@ -2,14 +2,15 @@
   "name": "exam1",
   "version": "1.0.0",
   "description": "Exam M324",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-  "start": "npm run check && node convert.js && node index.js",
-  "lint": "eslint .",
-  "format": "prettier --write .",
-  "format:check": "prettier --check .",
-  "check": "npm run lint && npm run format:check"
-},
+    "start": "node convert.js && npm run check && node index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run lint && npm run format:check"
+  },
   "engines": {
     "node": ">=22.18.0",
     "npm": ">=10.9.3"
@@ -20,6 +21,7 @@
   "dependencies": {
     "chalk": "^6.0.1",
     "eslint": "^10.13.0",
+    "marked": "^18.1.2",
     "prettier": "^3.9.10"
   }
 }

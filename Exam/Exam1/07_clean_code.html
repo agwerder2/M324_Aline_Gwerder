@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>07 - Clean Code</title>
+  </head>
+  <body>
+    <h1>07 - Clean Code</h1>
+    <hr />
+    <p>[TOC]</p>
+    <hr />
+    <h2>Clean Code</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Aspect</th>
+          <th>Tool</th>
+          <th>Example (JS)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Readability / Consistency</td>
+          <td><strong>Formatter</strong></td>
+          <td>Prettier</td>
+        </tr>
+        <tr>
+          <td>Simplicity</td>
+          <td><strong>Linter</strong></td>
+          <td>ESLint</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Formatting</h2>
+    <ul>
+      <li>Lines are at most 80 characters long.</li>
+      <li>
+        Consistent use of quotation marks (<code>&quot;</code> vs
+        <code>&#39;</code>).
+      </li>
+    </ul>
+    <h3>Prettier</h3>
+    <pre><code class="language-json">{
+  &quot;printWidth&quot;: 80,
+  &quot;singleQuote&quot;: true
+}
+</code></pre>
+    <h2>Linting</h2>
+    <p>
+      <strong>Linting</strong> is static analysis of the code. It checks what
+      the code <em>does</em>, not how it <em>looks</em>.
+    </p>
+    <ol>
+      <li>Unused variables or functions.</li>
+      <li>Compliance with project-specific rules.</li>
+    </ol>
+    <h3>ESLint</h3>
+    <p>Read more on <a href="https://eslint.org/">ESLint</a>.</p>
+  </body>
+</html>
